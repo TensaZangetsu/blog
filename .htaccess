@@ -1,0 +1,9 @@
+﻿Options +FollowSymLinks
+RewriteEngine on
+
+# external redirect from actual URL to pretty one
+RewriteCond %{THE_REQUEST} \s/+post\.php\?id=([^\s&]+) [NC]
+RewriteRule ^ /post/%1? [R=301,L,NE]
+
+# internal forward from pretty URL to actual one
+RewriteRule ^post/([^/.]+)/?$ post.php?id=$1 [L,QSA,NC]
