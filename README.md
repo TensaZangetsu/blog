@@ -5,10 +5,10 @@ Not in any shape and form for productional use since it has a lot of security is
 The design pattern is COMBO design, someting that facebook will soon incorporate into their own design.
 Htacess file for rewriteing urls.
 
-Class folder with user, posts and db class for CRUD operations - Objet oriented with MYSQLI.
-
+Class folder with user, posts and db class for CRUD operations - Objet oriented with MYSQLI. Db class uses singleton pattern.
 Simple login system with session and some security features
 
-Soon to come more security, better design, and more oop structure with database.sql which is used in this project
+Soon to come more security, better design, and more oop structure with database.sql which is used in this project. Down the road i will do ZEND and Codeigniter version od the same thing.
+
 
 
