@@ -1,3 +1,0 @@
-﻿Options +FollowSymLinks
-RewriteEngine on
-RewriteRule ^search/([^/.]+)/?$ search.php?id=$1 [L]
